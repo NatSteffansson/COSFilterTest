@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5017344f-b0fe-4494-bc3e-6a35736ebc13" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/TestFilterEdge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/TestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/TestFilterChrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/TestFilterChrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/FilterSortChrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/TestFilterEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/FilterSortEdge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,36 +34,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.TestFilter.executor": "Run",
-    "JUnit.TestFilter.filteringByColor_Chrome.executor": "Run",
-    "JUnit.TestFilter.filteringByColor_Edge.executor": "Run",
-    "JUnit.TestFilter.filteringByPrice_Chrome.executor": "Run",
-    "JUnit.TestFilter.filteringByPrice_Edge.executor": "Run",
-    "JUnit.TestFilterChrome.executor": "Run",
-    "JUnit.TestFilterEdge.executor": "Run",
-    "JUnit.TestFilterEdge.filteringByColor.executor": "Run",
-    "JUnit.TestFilterEdge.filteringByPrice.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/ulfst/IdeaProjects/COSFilterTest/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.FilterSortChrome.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FilterSortChrome.filteringByPrice.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FilterSortEdge.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FilterSortEdge.filteringByPrice.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestFilter.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestFilter.filteringByColor_Chrome.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestFilter.filteringByColor_Edge.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestFilter.filteringByPrice_Chrome.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestFilter.filteringByPrice_Edge.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestFilterChrome.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestFilterEdge.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestFilterEdge.filteringByColor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestFilterEdge.filteringByPrice.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ulfst/IdeaProjects/COSFilterTest/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="selenium" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="TestFilterChrome.filteringByColor_Chrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FilterSortEdge">
+    <configuration name="FilterSortChrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="COSFilterTest" />
       <extension name="coverage">
         <pattern>
@@ -72,45 +76,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="selenium" />
-      <option name="MAIN_CLASS_NAME" value="selenium.TestFilterChrome" />
-      <option name="METHOD_NAME" value="filteringByColor_Chrome" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFilterChrome.filteringByColor_Edge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="COSFilterTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium" />
-      <option name="MAIN_CLASS_NAME" value="selenium.TestFilterChrome" />
-      <option name="METHOD_NAME" value="filteringByColor_Edge" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFilterEdge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="COSFilterTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium" />
-      <option name="MAIN_CLASS_NAME" value="selenium.TestFilterEdge" />
+      <option name="MAIN_CLASS_NAME" value="selenium.FilterSortChrome" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFilterEdge.filteringByColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FilterSortChrome.soringByPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="COSFilterTest" />
       <extension name="coverage">
         <pattern>
@@ -119,14 +91,45 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="selenium" />
-      <option name="MAIN_CLASS_NAME" value="selenium.TestFilterEdge" />
+      <option name="MAIN_CLASS_NAME" value="selenium.FilterSortChrome" />
+      <option name="METHOD_NAME" value="soringByPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterSortEdge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="COSFilterTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium" />
+      <option name="MAIN_CLASS_NAME" value="selenium.FilterSortEdge" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterSortEdge.filteringByColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="COSFilterTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium" />
+      <option name="MAIN_CLASS_NAME" value="selenium.FilterSortEdge" />
       <option name="METHOD_NAME" value="filteringByColor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFilterEdge.filteringByPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FilterSortEdge.filteringByPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="COSFilterTest" />
       <extension name="coverage">
         <pattern>
@@ -135,7 +138,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="selenium" />
-      <option name="MAIN_CLASS_NAME" value="selenium.TestFilterEdge" />
+      <option name="MAIN_CLASS_NAME" value="selenium.FilterSortEdge" />
       <option name="METHOD_NAME" value="filteringByPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -144,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestFilterEdge.filteringByColor" />
-        <item itemvalue="JUnit.TestFilterEdge.filteringByPrice" />
-        <item itemvalue="JUnit.TestFilterEdge" />
-        <item itemvalue="JUnit.TestFilterChrome.filteringByColor_Edge" />
-        <item itemvalue="JUnit.TestFilterChrome.filteringByColor_Chrome" />
+        <item itemvalue="JUnit.FilterSortEdge" />
+        <item itemvalue="JUnit.FilterSortChrome" />
+        <item itemvalue="JUnit.FilterSortChrome.soringByPrice" />
+        <item itemvalue="JUnit.FilterSortEdge.filteringByPrice" />
+        <item itemvalue="JUnit.FilterSortEdge.filteringByColor" />
       </list>
     </recent_temporary>
   </component>

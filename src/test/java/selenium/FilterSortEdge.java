@@ -1,11 +1,11 @@
 package selenium;
 
-import org.junit.*;
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -17,10 +17,8 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class TestFilterChrome {
+public class FilterSortEdge {
     private WebDriver driver;
-
-
 
     private void click(By by) {
         (new WebDriverWait(driver, Duration.ofSeconds(10))).until(ExpectedConditions.elementToBeClickable(by));
@@ -30,9 +28,9 @@ public class TestFilterChrome {
 
     @Test
     public void filteringByColor() throws InterruptedException {
-        ChromeOptions optionsChrome = new ChromeOptions();
-        optionsChrome.addArguments("--start-maximized");
-        driver = new ChromeDriver(optionsChrome);
+        EdgeOptions optionsEdge = new EdgeOptions();
+        optionsEdge.addArguments("--start-maximized");
+        driver = new EdgeDriver(optionsEdge);
         driver.get("https://www.cos.com/en_sek/index.html");
         click(By.cssSelector("#oPage > div.header.parbase > div.o-lightbox.is-newsletter-popup.is-open.is-subscribe > div > button"));
         click(By.id("onetrust-reject-all-handler"));
@@ -43,18 +41,15 @@ public class TestFilterChrome {
         click(By.cssSelector("#toggle-colorWithNames"));
         click(By.cssSelector("#section-colorWithNames > div > ul > li:nth-child(11) > div > div > div > span > svg"));
         click(By.cssSelector(".ProductFilter-module--filterButtonContainer__1SuTe >button:nth-child(2)"));
-        //Get all items and validate their colors
         String url = driver.getCurrentUrl();
         Assert.assertEquals("https://www.cos.com/en_sek/women/knitwear.html?colorWithNames=ff0000_red", url);
-
     }
 
-
     @Test
-    public void filteringByPrice() throws InterruptedException {
-        ChromeOptions optionsChrome = new ChromeOptions();
-        optionsChrome.addArguments("--start-maximized");
-        driver = new ChromeDriver(optionsChrome);
+    public void sortingByPrice() throws InterruptedException {
+        EdgeOptions optionsEdge = new EdgeOptions();
+        optionsEdge.addArguments("--start-maximized");
+        driver = new EdgeDriver(optionsEdge);
         driver.get("https://www.cos.com/en_sek/index.html");
         click(By.cssSelector("#oPage > div.header.parbase > div.o-lightbox.is-newsletter-popup.is-open.is-subscribe > div > button"));
         click(By.id("onetrust-reject-all-handler"));
@@ -95,4 +90,3 @@ public class TestFilterChrome {
     }
 
 }
-
